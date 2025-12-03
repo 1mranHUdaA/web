@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b1120;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+}
+
+a { color: #38bdf8; }
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin: 0 0 10px 0;
+}
+
+.card {
+    background-color: #111827;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+label {
+    display: block;
+    margin: 10px 0 4px 0;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #4b5563;
+    background-color: #020617;
+    color: #e5e7eb;
+}
+
+button {
+    margin-top: 12px;
+    padding: 10px 16px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(90deg, #22c55e, #16a34a);
+    color: white;
+    font-weight: 600;
+}
+
+button.danger {
+    background: linear-gradient(90deg, #ef4444, #b91c1c);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #374151;
+    padding: 8px;
+    vertical-align: top;
+}
+
+th {
+    background-color: #111827;
+}
+
+.messages {
+    list-style: none;
+    padding: 0;
+}
+
+.messages li {
+    margin: 6px 0;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.messages li.error {
+    background-color: #7f1d1d;
+}
